@@ -1,5 +1,6 @@
 package com.binarywang.demo.wx.mp;
 
+import me.chanjar.weixin.common.error.WxErrorException;
 import me.chanjar.weixin.mp.api.WxMpService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
@@ -24,7 +25,8 @@ public class DemoApplication {
     private WxMpService mpService;
 
     @GetMapping("/test")
-    public String getAppId() {
-        return this.mpService.getWxMpConfigStorage().getAppId();
+    public String test() throws WxErrorException {
+        // this.mpService.getWxMpConfigStorage().getAppId();
+        return  this.mpService.getAccessToken();
     }
 }
