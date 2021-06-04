@@ -9,7 +9,7 @@
         <relativePath/>
     </parent>
     <groupId>com.binarywang</groupId>
-    <artifactId>mp-demo</artifactId>
+    <artifactId>wx-java-mp-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>wx mp demo</name>
     <description>Demo project for wx mp with spring boot</description>
@@ -26,7 +26,7 @@
         <dependency>
             <groupId>com.github.binarywang</groupId>
             <artifactId>wx-java-mp-spring-boot-starter</artifactId>
-            <version>4.0.0</version>
+            <version>4.1.0</version>
         </dependency>
         <dependency>
             <groupId>com.github.jedis-lock</groupId>
