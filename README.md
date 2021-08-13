@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/binarywang/wx-java-mp-demo.svg?branch=master)](https://travis-ci.org/binarywang/wx-java-mp-demo)
+[![Build Status](https://travis-ci.com/binarywang/wx-java-mp-demo.svg?branch=master)](https://travis-ci.com/binarywang/wx-java-mp-demo)
 
 ### 本`Demo`使用 `Spring Boot Starter` 实现微信公众号开发功能。
 
